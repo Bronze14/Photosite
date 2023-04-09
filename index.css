@@ -1,0 +1,748 @@
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  display: flex;
+  justify-content: center;
+  margin: auto;
+  padding: 0;
+  background-color: #fff7ed;
+  font-family: "Inter", sans-serif;
+
+}
+
+a {
+  text-decoration: unset;
+  color: unset;
+}
+
+body::-webkit-scrollbar {
+  display: none;
+}
+
+body {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+.site-wrapper {
+  display: flex;
+  flex-direction: column;
+  width: 1440px;
+}
+
+header {
+  height: 80px;
+  display: flex;
+  align-items: center;
+  padding-block: 10px;
+  width:100%;
+}
+
+.site-logo {
+  color: black;
+  margin-left: 100px;
+  font-weight: 900;
+  font-size: 25px;
+  
+}
+.site-logo img{
+  height: 40px;
+  padding-top: 5px;
+
+}
+.site-logo h2{
+  font-family: 'DM Sans Bold', sans-serif;
+  font-size: 28px;
+  font-weight:1000;
+  text-align: left;
+  
+
+}
+
+.site-logo div {
+  display: flex;
+  align-items: center;
+
+}
+header a {
+  text-decoration: none;
+  padding: 5px 20px;
+  color: #161616;
+  
+}
+
+header a:hover {
+  color: #dfdfdf;
+}
+.site-logo:hover{
+  color:black;
+  
+
+}
+header .login-icon {
+  height: 18px;
+  width: 18px;
+}
+
+header .login-link {
+  align-items: center;
+}
+
+
+nav {
+  display: flex;
+  font-family: "DM Sans";
+  font-size: 12px;
+  font-weight: 700;
+  line-height: 16px;
+  letter-spacing: 2px;
+  text-align: left;
+  align-items: center;
+  justify-content: center;
+  margin-left: 200px;
+}
+nav button{
+
+  background-color: #000000;
+  color: white;
+  font-family: "DM Sans";
+  font-size: 12px;
+  font-weight: 700;
+  line-height: 16px;
+  letter-spacing: 2px;
+  text-align: left;
+  padding: 12px 24px;
+  box-shadow: none;
+  cursor: pointer;
+  border-color: transparent;
+  margin-left: 200px;
+
+}
+nav button:hover{
+  color: black;
+  background-color: #dfdfdf;
+
+}
+main {
+  margin-bottom: 84px;
+}
+footer {
+  background-color: #161616;
+  color: #aaaaaa;
+  height: 74px;
+  display: flex;
+  flex-shrink: 0;
+  justify-content: center;
+  align-items: center;
+  margin-top: auto;
+  font-weight: 500;
+}
+.container {
+  overflow: hidden;
+}
+
+.text {
+  float: left;
+  width: 40%;
+  background-color: #000000;
+  color: white;
+  height: 650px;
+  display: flex;
+
+  align-items: center;
+}
+.text > div{
+  border-left: 6px solid yellow;
+  padding-left: 112px;
+  width: 500px;
+  
+}
+.text >div > h1{
+  font-family: "DM Sans";
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 48px;
+  letter-spacing: 4.2px;
+  text-align: left;
+  color:white;
+
+
+}
+.text >div > h2{
+  font-family: "DM Sans";
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 25px;
+  letter-spacing: 0px;
+  text-align: left;
+  color: #dfdfdf;
+  
+
+}
+
+.image {
+  float: right;
+  width: 60%;
+  height: 650px;
+}
+
+.text2 {
+  float: right;
+  width: 40%;
+  background-color: white;
+  color: black;
+  height: 600px;
+  display: flex;
+
+  align-items: center;
+}
+.text2 > div{
+  
+  padding-left: 112px;
+  width: 500px;
+  
+}
+.text2 >div > h1{
+  font-family: "DM Sans";
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 48px;
+  letter-spacing: 4.2px;
+  text-align: left;
+  color:black;
+
+
+}
+.text2 >div > h2{
+  font-family: "DM Sans";
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 25px;
+  letter-spacing: 0px;
+  text-align: left;
+  color: black;
+  
+
+}
+
+.image2 {
+  float: left;
+  width: 60%;
+  height: 600px;
+}
+.text3 {
+  float: left;
+  width: 40%;
+  background-color: white;
+  color: black;
+  height: 600px;
+  display: flex;
+
+  align-items: center;
+}
+.text3 > div{
+  
+  padding-left: 112px;
+  width: 500px;
+  
+}
+.text3 >div > h1{
+  font-family: "DM Sans";
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 48px;
+  letter-spacing: 4.2px;
+  text-align: left;
+  color:black;
+
+
+}
+.text3 >div > h2{
+  font-family: "DM Sans";
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 25px;
+  letter-spacing: 0px;
+  text-align: left;
+  color: black;
+}
+.image3 {
+  float: right;
+  width: 60%;
+  height: 600px;
+}
+
+.container--Homesite {
+  position: relative;
+  width: 25%;
+}
+.container--Homesite img {
+  object-fit: cover;
+  filter: brightness(70%);
+
+  width: 100%;
+}
+.titles--Homesite {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  color: white;
+  padding-left: 40px;
+  
+}
+.titles--Homesite h1{
+  font-family: "DM Sans";
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 25px;
+  letter-spacing: 0px;
+  text-align: left;
+}
+.titles--Homesite h2{
+  font-family: "DM Sans";
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 17px;
+  letter-spacing: 0px;
+  text-align: left;
+}
+.titles--Homesite h3{
+  border-top: 1px solid white;
+  font-family: "DM Sans";
+  font-size: 12px;
+  font-weight: 700;
+  line-height: 16px;
+  letter-spacing: 2px;
+  text-align: left;
+  width: 280px;
+  padding-top: 20px;
+  padding-bottom: 40px;
+}
+.container--Homesite:hover div.titles--Homesite {
+  animation: move-up 0.3s ease-in-out 0.1s forwards;
+}
+
+@keyframes move-up {
+  0% {
+    transform: translateY(0);
+  }
+  100% {
+    transform: translateY(-24px);
+  }
+}
+
+.container--Homesite:hover {
+  animation: move-up-container 0.3s ease-in-out 0.1s forwards;
+}
+
+@keyframes move-up-container {
+  0% {
+    transform: translateY(0);
+  }
+  100% {
+    transform: translateY(-24px);
+  }
+}
+.container--Homesite div.titles--Homesite {
+  transition: transform 0.3s ease-in-out;
+}
+
+.Homesite2{
+  display: flex;
+  justify-content: center;
+ 
+}
+.Homesite2 > div {
+  text-align: center;
+  width: 350px;
+  height: 218px;
+  padding-top: 120px;
+  padding-bottom: 240px;
+  
+}
+.Homesite2 h1 {
+  font-family: "DM Sans";
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 25px;
+  letter-spacing: 0px;
+  text-align: center;
+  color: #000000;
+  padding-top: 20px;
+}
+.Homesite2 h2 {
+  font-family:"DM Sans";
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 25px;
+  letter-spacing: 0px;
+  text-align: center;
+  color: gray;
+}
+.Invite--class{
+  display: flex;
+  align-items: center ;
+  width: 190px;
+  font-family: "DM Sans";
+  font-size: 12px;
+  font-weight: 700;
+  line-height: 16px;
+  letter-spacing: 2px;
+  text-align: left;
+  
+}
+.Invite--class img{
+  padding-left: 5px;
+}
+.Invite--class:hover{
+  text-decoration: underline;
+}
+footer{
+  height: 250px;
+  background-color: #000000;
+}
+
+.icon--Container {
+  display: flex;
+  align-items: center; /* opcjonalnie: wyśrodkowanie w pionie */
+  
+}
+.icon--Container svg{
+  margin-left: 10px;
+  fill: white;
+  
+}
+.site-logo1 {
+  color: white;
+  font-weight: 900;
+  font-size: 25px;
+  
+  
+}
+.site-logo1 img{
+  height: 40px;
+  padding-top: 5px;
+
+}
+.site-logo1 h2{
+  font-family: 'DM Sans Bold', sans-serif;
+  font-size: 28px;
+  font-weight:700;
+  text-align: left;
+}
+.site-logo1 div {
+  display: flex;
+  align-items: center;
+  margin-bottom: 70px;
+}
+.footer-Nav{
+  margin-top: 35px;
+  margin-left: 100px;
+  display: flex;
+  flex-direction: column;
+  font-family: "DM Sans";
+  font-size: 12px;
+  font-weight: 700;
+  line-height: 16px;
+  letter-spacing: 2px;
+  text-align: left;
+
+}
+.footer--Container{
+  display: flex;
+}
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-left: 300px;
+}
+
+.link {
+  margin-bottom: auto;
+  display: flex;
+  align-items: center ;
+  font-family: "DM Sans";
+  font-size: 12px;
+  font-weight: 700;
+  line-height: 16px;
+  text-align: left;
+  letter-spacing: 2px;
+  align-self: flex-end;
+  margin-top: 10px;
+}
+.wrapper h3{
+  font-family: "DM Sans";
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 20px;
+  letter-spacing: 0px;
+  text-align: right;
+  color:#FFFFFF;
+
+
+}
+.parent {
+  position: relative;
+  margin: 0;
+}
+
+.parent img {
+  width: 100%;
+  filter: brightness(80%);
+  
+}
+
+.child {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  color: #FFFFFF;
+  width: 402px;
+  margin-left: 112px;
+  margin-bottom: 112px;
+}
+
+.child h4 {
+  font-family: "DM Sans";
+  font-size: 12px;
+  font-weight: 700;
+  line-height: 16px;
+  letter-spacing: 2px;
+  text-align: left;
+  margin: 0;
+}
+
+.child h2 {
+  font-family: "DM Sans";
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 48px;
+  letter-spacing: 4.166666507720947px;
+  text-align: left;
+  margin: 0;
+
+}
+
+.child h5 {
+  color: #dfdfdf;
+  font-family:"DM Sans";
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 25px;
+  letter-spacing: 0px;
+  text-align: left;
+  margin: 0;
+
+}
+.about-page-container {
+  gap: 0;
+  margin: 0;
+}
+.container--Homesite2 {
+  position: relative;
+  width: 25%;
+  margin: 0px;
+  padding: 0px;
+  
+}
+.container--Homesite2 img {
+  object-fit: cover;
+  filter: brightness(70%);
+  width: 100%;
+}
+.titles--Homesite2 {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  color: white;
+  padding-left: 50px;
+  
+}
+.titles--Homesite2 h1{
+  font-family: "DM Sans";
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 25px;
+  letter-spacing: 0px;
+  text-align: left;
+}
+.titles--Homesite2 h2{
+  font-family: "DM Sans";
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 17px;
+  letter-spacing: 0px;
+  text-align: left;
+}
+.titles--Homesite2 h3{
+  border-top: 1px solid white;
+  font-family: "DM Sans";
+  font-size: 12px;
+  font-weight: 700;
+  line-height: 16px;
+  letter-spacing: 2px;
+  text-align: left;
+  width: 280px;
+  padding-top: 20px;
+  padding-bottom: 40px;
+}
+.niewiem > div {
+  margin-top: -4px;
+}
+.feature--h1{
+  font-family: "DM Sans";
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 48px;
+  letter-spacing: 4.166666507720947px;
+  text-align: left;
+
+}
+.Pricingplan--div h2{
+  font-family: "DM Sans";
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 25px;
+  letter-spacing: 0px;
+  text-align: center;
+
+
+}
+.Pricingplan--div h3{
+  font-family: DM Sans;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 25px;
+  letter-spacing: 0px;
+  text-align: center;
+  
+
+
+}
+.Pricingplan--div h1{
+  font-family: DM Sans;
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 48px;
+  letter-spacing: 4.166666507720947px;
+  text-align: center;
+}
+.Pricingplan--div button{
+  background-color: #000000;
+  color: white;
+  font-family: "DM Sans";
+  font-size: 12px;
+  font-weight: 700;
+  line-height: 16px;
+  letter-spacing: 2px;
+  text-align: left;
+  padding: 12px 24px;
+  box-shadow: none;
+  cursor: pointer;
+  border-color: transparent;
+  padding-left: 100px;
+  padding-right: 100px;
+  margin-top: 40px;
+  cursor: pointer;
+}
+.Pricingplan--div button:hover{
+  background-color: #dfdfdf;
+  color:  black;
+}
+.Pricingplan--div{
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+.toggle-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #dfdfdf;
+  border-radius: 30px;
+  padding: 5px;
+  width: 64px;
+  height: 28px;
+  position: relative;
+  cursor: pointer;
+  transition: all 0.1s ease;
+}
+
+.toggle-button {
+  position: absolute;
+  top: 50%;
+  left: 0;
+  transform: translateY(-50%);
+  width: 50%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.toggle-button-circle {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background-color: black;
+  box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.2);
+  transition: all 0.4s ease;
+}
+
+.toggle-container.night {
+  background-color: black;
+}
+
+.toggle-container.night .toggle-button {
+  left: 50%;
+}
+
+.toggle-container.night .toggle-button-circle {
+  background-color: white;
+}
+
+.toggle-left,
+.toggle-right {
+  font-weight: bold;
+  font-size: 12px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  color: black;
+  transition: all 0.4s ease;
+}
+.pricing--button h3{
+  font-family: "DM Sans";
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 25px;
+  letter-spacing: 0px;
+  text-align: right;
+
+}
+.pircing--Bottom h3{
+  font-family: "DM Sans";
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 48px;
+  letter-spacing: 4.166666507720947px;
+  text-align: center;
+
+}
+.icon--Container svg path:hover {
+  cursor: pointer;
+  fill:white;
+}
+.icon--Container svg path{
+  cursor: pointer;
+  padding:10;
+}
+.icon--Container svg:hover{
+  cursor: pointer;
+  fill:white;
+  object-fit: fill;
+}
