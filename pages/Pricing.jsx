@@ -1,6 +1,6 @@
 import React from "react"
 import { Link } from "react-router-dom"
-import Hero from './stories/Hero1.jpg'
+import Hero from './stories/hero1.jpg'
 import Plan from "./stories/Group 25.png"
 import Pricingplan from './Home/Pricingplan'
 import Pricingplan2 from './Home/Pricingplan2'
