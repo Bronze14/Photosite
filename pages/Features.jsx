@@ -1,6 +1,6 @@
 import React, { lazy, Suspense } from 'react';
 import { Link } from "react-router-dom"
-import Hero from './stories/Hero.jpg'
+import Hero from './stories/hero.jpg'
 import Homesite2 from './Home/Homesite2'
 import Homesite3 from './Home/Homesite3'
 import Bitmap from './stories/Bitmap.jpg'
