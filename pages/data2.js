@@ -47,86 +47,86 @@ export default [
     },
     {
         id: 5,
-        date: "April 16th 2020",
-        title1: "Architecturals",
-        title2: "by Samantha Brooke",
+        date: "April 7th 2020",
+        title1: "World Tour 2019",
+        title2: "by Timothy Wagner",
         img: img5
     },
     {
         id: 6,
-        date: "April 16th 2020",
-        title1: "Architecturals",
-        title2: "by Samantha Brooke",
+        date: "April 3rd 2020",
+        title1: "Unforeseen Corners",
+        title2: "by William Malcolm",
         img: img6
     },
     {
         id: 7,
-        date: "April 16th 2020",
-        title1: "Architecturals",
-        title2: "by Samantha Brooke",
+        date: "March 29th 2020",
+        title1: "King on Africa: Part II",
+        title2: "by Tim Hillenburg",
         img: img7
     },
     {
         id: 8,
-        date: "April 16th 2020",
-        title1: "Architecturals",
-        title2: "by Samantha Brooke",
+        date: "March 21st 2020",
+        title1: "The Trip to Nowhere",
+        title2: "by Felicia Rourke",
         img: img8
     },
     {
         id: 9,
-        date: "April 16th 2020",
-        title1: "Architecturals",
-        title2: "by Samantha Brooke",
+        date: "March 19th 2020",
+        title1: "Rage of The Sea",
+        title2: "by Mohammed Abdul",
         img: img9
     },
     {
         id: 10,
-        date: "April 16th 2020",
-        title1: "Architecturals",
-        title2: "by Samantha Brooke",
+        date: "March 16th 2020",
+        title1: "Running Free",
+        title2: "by Michelle",
         img: img10
     },
     {
         id: 11,
-        date: "April 16th 2020",
-        title1: "Architecturals",
-        title2: "by Samantha Brooke",
+        date: "March 11th 2020",
+        title1: "Behind the Waves",
+        title2: "by Lamarr Wilson",
         img: img11
     },
     {
         id: 12,
-        date: "April 16th 2020",
-        title1: "Architecturals",
+        date: "March 9th 2020",
+        title1: "Calm Waters",
         title2: "by Samantha Brooke",
         img: img12
     },
     {
         id: 13,
-        date: "April 16th 2020",
-        title1: "Architecturals",
-        title2: "by Samantha Brooke",
+        date: "March 5th 2020",
+        title1: "The Milky Way",
+        title2: "by Benjamin Cruz",
         img: img13
     },
     {
         id: 14,
-        date: "April 16th 2020",
-        title1: "Architecturals",
-        title2: "by Samantha Brooke",
+        date: "March 4th 2020",
+        title1: "Night at The Dark Forest",
+        title2: "by Mohammed Abdul",
         img: img14
     },
     {
         id: 15,
-        date: "April 16th 2020",
-        title1: "Architecturals",
-        title2: "by Samantha Brooke",
+        date: "March 1st 2020",
+        title1: "Somwarpet’s Beauty",
+        title2: "by Michelle",
         img: img15
     },
     {
         id: 16,
-        date: "April 16th 2020",
-        title1: "Architecturals",
-        title2: "by Samantha Brooke",
+        date: "February 25th 2020",
+        title1: "Land of Dreams",
+        title2: "Land of Dreams",
         img: img16
     }
 ]
