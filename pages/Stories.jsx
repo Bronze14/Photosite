@@ -3,13 +3,17 @@ import { Link, useLoaderData, Await } from "react-router-dom"
 import Hazy from "./stories/moon-of-appalacia.jpg"
 import img5 from './desktop/Group 7.png'
 import Storiessite from './Home/Storiessite'
-import data from './data2.js'
+import dataImages from './data2.js'
 import Delay from "react-delay";
 import Loading from "./Loading"
 
 
 export default function Stories() {
+    const [data, setData] = React.useState(null);
     const loaderData = useLoaderData()
+    React.useEffect(() => {
+            setData(dataImages)
+    })
 
     return (
         <Delay wait={250} fallback={Loading}>
@@ -34,7 +38,7 @@ export default function Stories() {
 
                 
                         <div  className="niewiem"style={{display:'flex',flexWrap: "wrap", width: "100%",height:'1912px'}}>
-                            <Await >{data.map(item => <Storiessite key={item.id} data={item} style={{width:"25%"}}/>)}</Await>
+                            <Await >{dataImages.map(item => <Storiessite key={item.id} data={item} style={{width:"25%"}}/>)}</Await>
                         </div>
                 
             </div>

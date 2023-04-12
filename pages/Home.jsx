@@ -4,7 +4,7 @@ import Homesite2 from './Home/Homesite2'
 import img1 from './desktop/create-and-share.jpg'
 import img2 from './desktop/beautiful-stories.jpg'
 import img3 from './desktop/designed-for-everyone.jpg'
-import data from '../data.js'
+import dataImages from '../data.js';
 import img4 from './desktop/Group 6.png'
 import img5 from './desktop/Group 7.png'
 import { Link, useLoaderData, Await } from "react-router-dom"
@@ -13,7 +13,11 @@ import Loading from "./Loading"
 
 
 export default function Home() {
+    const [data, setData] = React.useState(null);
     const loaderData = useLoaderData()
+    React.useEffect(() => {
+            setData(dataImages)
+    })
 
     return (
         <Delay wait={250} fallback={<h1>sdfojmsdgjgfsdiknojfgijkopfdg</h1>}>
@@ -61,7 +65,7 @@ export default function Home() {
 
                 
                         <div style={{flexdirection: "row",width: "100%", display:"flex"}}>
-                            <Await resolve={loaderData}>{data.map(item => <Homesite key={item.id} data={item} />)}</Await>
+                            {data ? <Await resolve={loaderData}>{data.map(item => <Homesite key={item.id} data={item} />)}</Await>: ""}
                         </div>
                 
                 <Homesite2 />

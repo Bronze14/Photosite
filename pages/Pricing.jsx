@@ -71,7 +71,7 @@ export default function Pricing() {
             <div style={{position: 'relative',marginBottom:'-88px'}} >
                 <img src={Bitmap} style={{width:'100%'}}/>
                 <h1  className='feature--h1' style={{position: 'absolute', left: '10%', top: '40%', transform: 'translateY(-50%)',color:'white', width:'400px'}}>WE'RE IN BETA. GET YOUR INVITE TODAY!</h1>
-                <Link to="stories" className="Invite--class" style={{position: 'absolute', right: '7.2%', top: '40%',color:'white'}}>
+                <Link to="" className="Invite--class" style={{position: 'absolute', right: '7.2%', top: '40%',color:'white'}}>
                     <h4 >GET AN INVITE</h4>
                     <img src={img5} style={{width: '42px',paddingLeft:"10px"}}/>
                 </Link>
