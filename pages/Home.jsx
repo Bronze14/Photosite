@@ -20,7 +20,7 @@ export default function Home() {
     })
 
     return (
-        <Delay wait={250} fallback={<h1>sdfojmsdgjgfsdiknojfgijkopfdg</h1>}>
+        <Delay wait={250} fallback={<h1>Loading...</h1>}>
             
             <div className="home-container">
                 <div className="container">
@@ -64,7 +64,7 @@ export default function Home() {
                 </div>
 
                 
-                        <div style={{flexdirection: "row",width: "100%", display:"flex"}}>
+                        <div className="container--Homesite1" style={{flexdirection: "row",width: "100%", display:"flex"}}>
                             {data ? <Await resolve={loaderData}>{data.map(item => <Homesite key={item.id} data={item} />)}</Await>: ""}
                         </div>
                 

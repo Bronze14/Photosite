@@ -36,22 +36,22 @@ export default function Footer() {
                         </div>
                 </div>
                 <div  className="footer-Nav">
-                    <nav className="" style={{width:"256px",height:"16px",margin:"0",marginBottom: "20px",justifyContent: "left"}} >
+                    <nav className="Footer-Nav-Links" style={{width:"256px",height:"16px",margin:"0",marginBottom: "20px",justifyContent: "left"}} >
                         <NavLink to="/" style={({isActive}) => isActive ? activeStyles : null}>
                             <h4>HOME</h4>
                         </NavLink>
                     </nav>
-                    <nav className="" style={{width:"256px",height:"16px",margin:"0",marginBottom: "20px",justifyContent: "left"}}>
+                    <nav className="Footer-Nav-Links" style={{width:"256px",height:"16px",margin:"0",marginBottom: "20px",justifyContent: "left"}}>
                         <NavLink to="stories" style={({isActive}) => isActive ? activeStyles : null}>
                             <h4>STORIES</h4>
                         </NavLink>
                     </nav>
-                    <nav className="" style={{width:"256px",height:"16px",margin:"0",marginBottom: "20px",justifyContent: "left"}}>
+                    <nav className="Footer-Nav-Links" style={{width:"256px",height:"16px",margin:"0",marginBottom: "20px",justifyContent: "left"}}>
                         <NavLink to="features" style={({isActive}) => isActive ? activeStyles : null}>
                             <h4>FEATURES</h4>
                         </NavLink>
                     </nav>
-                    <nav className="" style={{width:"256px",height:"16px",margin:"0",marginBottom: "20px",justifyContent: "left"}}>
+                    <nav className="Footer-Nav-Links" style={{width:"256px",height:"16px",margin:"0",marginBottom: "20px",justifyContent: "left"}}>
                         <NavLink to="pricing" style={({isActive}) => isActive ? activeStyles : null}>
                             <h4>PRICING</h4>
                         </NavLink>

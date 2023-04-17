@@ -13,19 +13,13 @@ import Stories from "./pages/Stories"
 import Features from "./pages/Features"
 import Pricing from "./pages/Pricing"
 
-
-
-
-
-
-
 const router = createBrowserRouter(createRoutesFromElements(
   <Route path="/" element={<Layout />}>
     <Route index element={<Home />} />
     <Route path="stories" element={<Stories />} />
     <Route path="features" element={<Features />} />
     <Route path="pricing" element={<Pricing />} />
-
+    
 
   </Route>
 ))
