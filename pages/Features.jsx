@@ -1,8 +1,7 @@
 import React, { lazy, Suspense } from 'react';
 import { Link } from "react-router-dom"
 import Hero from './stories/hero.jpg'
-import Homesite2 from './Home/Homesite2'
-import Homesite3 from './Home/Homesite3'
+
 import Bitmap from './stories/Bitmap.jpg'
 import img5 from './desktop/Group 7.png'
 import Delay from "react-delay";
@@ -16,7 +15,7 @@ export default function Features() {
   return (
     <Suspense fallback={<Loading />}>
       <Delay wait={250}>
-        <div style={{height:'1665px'}}>
+        <div className='features--Container' style={{height:'1665px'}}>
           <div className="container">
             <div className="text">
               <div>
@@ -34,7 +33,7 @@ export default function Features() {
             <LazyHomesite3 />
           </Suspense>
 
-          <div style={{position: 'relative',marginTop:'100px'}} >
+          <div className='features--Invite' style={{position: 'relative',marginTop:'100px'}} >
             <img src={Bitmap} style={{width:'100%'}}/>
             <h1  className='feature--h1' style={{position: 'absolute', left: '10%', top: '40%', transform: 'translateY(-50%)',color:'white', width:'400px'}}>WE'RE IN BETA. GET YOUR INVITE TODAY!</h1>
             <Link to="" className="Invite--class" style={{position: 'absolute', right: '7.2%', top: '40%',color:'white'}}>

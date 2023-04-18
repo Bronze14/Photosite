@@ -46,7 +46,7 @@ export default function Pricing() {
     return (
         <Delay wait={250} fallback={Loading}>
 
-            <div className="about-page-container">
+            <div className="about-page-container-pricing">
             <div className="container" >
                 <div className="text">
                     <div>
@@ -68,7 +68,7 @@ export default function Pricing() {
                 <h3>COMPARE</h3>
                 <img style={{ width: "602px",marginTop:'50px'}} src={Plan} alt="comparison plan" />
             </div>
-            <div style={{position: 'relative',marginBottom:'-88px'}} >
+            <div className='features--Invite' style={{position: 'relative',marginBottom:'-88px'}} >
                 <img src={Bitmap} style={{width:'100%'}}/>
                 <h1  className='feature--h1' style={{position: 'absolute', left: '10%', top: '40%', transform: 'translateY(-50%)',color:'white', width:'400px'}}>WE'RE IN BETA. GET YOUR INVITE TODAY!</h1>
                 <Link to="" className="Invite--class" style={{position: 'absolute', right: '7.2%', top: '40%',color:'white'}}>

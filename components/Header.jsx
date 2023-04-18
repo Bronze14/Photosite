@@ -37,7 +37,9 @@ export default function Header() {
                 >
                     PRICING
                 </NavLink>
-                <button >GET AN INVITE</button>
+                <button >
+                    <h4>GET AN INVITE</h4>
+                </button>
             </nav>
         </header>
     )

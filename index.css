@@ -133,7 +133,6 @@ footer {
   background-color: #161616;
   color: #aaaaaa;
   display: flex;
-  flex-shrink: 0;
   justify-content: center;
   align-items: center;
   margin-top: auto;
@@ -597,6 +596,7 @@ footer{
   text-align: left;
 
 }
+
 .Pricingplan--div h2{
   font-family: "DM Sans";
   font-size: 24px;
@@ -827,6 +827,7 @@ footer{
   }
   .home-container{
     width: 768px;
+    
   }
   .text {
     width: 64.45%;
@@ -952,5 +953,507 @@ footer{
     padding: 0!important;
     margin-left: -0.01px !important;
     
+  }
+  .features--Container{
+    height: 3105px !important;
+  }
+  .features--Invite img{
+    height: 280px ;
+  }
+  .feature--h1{
+    left: 3% !important;
+  }
+  .Invite--class{
+    right: 0% !important;
+  } 
+  .Invite--class img{
+    height: 10px;
+  }
+  .about-page-container{
+    flex-direction: column !important;
+    position: relative;
+  }
+  .Pricingplan--div{
+    width: 689px !important;
+    margin: auto!important;;
+    height: 300px !important;
+    align-items: flex-start !important;
+    float:  left !important;
+    text-align: left !important;
+    display:inline !important;
+    position: relative;
+  }
+  .Pricingplan--div h2{
+    float: left !important;
+    width: 250px;
+    text-align: left;
+    margin-left: 30px;
+    
+  }
+  .Pricingplan--div h3{
+    text-align: left !important;
+    margin-left: 30px;
+  }
+  .pricing--Cost {
+    margin-left: 450px !important;
+    text-align: start !important;
+    position: absolute!important;
+    top: 13%;
+    left: 0;
+    width: 200px !important;
+    display: flex !important;;
+    flex-direction: column !important;;
+    align-items: flex-end !important;;
+  }
+  .pricing--Cost h1 {
+    margin-right: -10px !important;
+  }
+
+  .Pricingplan--div button{
+
+    padding-left: 100px;
+    padding-right: 100px;
+    margin-top: 20px;
+    
+    margin-left: 30px;
+  }
+  
+}
+@media screen and (max-width: 399px) {
+  .site-wrapper{
+    width:375px;
+  }
+  header {
+    height: 195px;
+    display: flex;
+    flex-direction: column;
+    padding-block: 0px;
+    width:375px !important;
+  }
+  .site-logo {
+    color: black;
+    margin-left: 0px;
+    margin-right: 180px;
+    
+  }
+  .site-logo img{
+    height: 30px;
+    padding-top: 5px;
+    
+  
+  }
+  .site-logo h2{
+    font-family: 'DM Sans Bold', sans-serif;
+    font-size: 20px;
+    font-weight:1000;
+    text-align: left;
+
+  }
+  nav {
+    margin-left: 0px;
+    display: flex;
+    flex-direction: column;
+
+  }
+  nav button{
+    padding: 0px 0px;
+    margin-left: 0px;
+    margin-top: 30px;
+    border-top: 2px solid yellow;
+    width: 340px;
+    display: inline !important;
+    text-align: center !important;
+  }
+
+  .site-logo1 img{
+    height: 27px;
+    padding-top: 5px;
+    
+  
+  }
+  .site-logo1 h2{
+    text-align: left;
+    font-weight: 700;
+    font-size: 20px;
+  }
+  .site-logo1 div {
+    margin-bottom: 0px;
+    margin-left: 0px;
+    margin-top: 56px;
+  }
+  footer{
+    height: 539px;
+    width: 100% !important;
+    
+    background-color: #000000;
+  }
+  .footer--Container{
+    width: 375px !important;
+    height: 539px;
+    background-color: #000000;
+    display: flex !important;
+    flex-direction: column !important;
+    align-items: center;
+  }
+  .footer-Nav{
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+
+    
+  }
+  .Footer-Nav-Links{
+    width: 30px !important;
+    margin:  0 !important;
+    padding: 0 !important;
+    margin-left: 0px!important;
+    margin-top: 19px!important;
+    
+  }
+  .icon--Container {
+    margin-left: 0px;
+    margin-top: 32px;
+    
+    
+  }
+  .wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-left: 0px;
+    margin-top: 0px;
+    
+  }
+  .link {
+    margin-bottom: 0px;
+    margin-top: 100px;
+    align-items: center !important;
+    justify-content: center !important;
+
+  }
+  .subtitle{
+    margin-right: 0px;
+  }
+  .home-container{
+    width: 375px;
+    height: auto !important;
+    margin-top: 70px;
+  }
+  .link img{
+    margin-right: 70px;
+  }
+  .container{
+    display: grid;
+    grid-template-rows: auto 1fr;
+  }
+  .text {
+    width: 100%;
+    height: 320px;
+    grid-row: 2;
+    display: flex;
+    flex-direction: column; 
+    align-items: center;
+    justify-content: center;
+  }
+  .text > div{
+    align-items: center !important;
+    justify-content: center !important;
+    width: 318px;
+    height: 275px;
+    padding: 0;
+    margin: 0;
+    border: 0;
+    margin-bottom: 50px;
+    
+    
+  }
+  .text > div h1{
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 40px;
+    letter-spacing: 3.3333332538604736px;
+
+  }
+  .text2 > div h1{
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 40px;
+    letter-spacing: 3.3333332538604736px;
+    
+  }
+  .text3 > div h1{
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 40px;
+    letter-spacing: 3.3333332538604736px;
+    
+  }
+  .text > div h2{
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 25px;
+    letter-spacing: 0px;
+  }
+  .text2 > div h2{
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 25px;
+    letter-spacing: 0px;
+    
+  }
+  .text3 > div h2{
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 25px;
+    letter-spacing: 0px;
+    
+  }
+  .image {
+    grid-row: 1;
+
+    width: 100%;
+    object-fit: cover;
+    height: 294px;
+    
+    
+  }
+  .container2{
+    display: grid;
+    grid-template-rows: auto 1fr;
+  }
+  .text2 {
+    width: 100%;
+    height: 330px;
+    grid-row: 2;
+    align-items: center;
+    justify-content: center;
+  }
+  .text2 > div{
+    align-items: center;
+    justify-content: center;
+    width: 328px;
+    height: 275px;
+    padding: 0;
+    margin: 0;
+    border: 0;
+    margin-bottom: 50px;
+    
+  }
+  .image2 {
+    grid-row: 1;
+
+    width: 100%;
+    object-fit: cover;
+    height: 294px;
+    
+  }
+  .container3{
+    display: grid;
+    grid-template-rows: auto 1fr;
+  }
+  .text3 {
+    width: 100%;
+    height: 330px;
+    grid-row: 2;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    
+  }
+  .text3 > div{
+    align-items: center;
+    justify-content: center;
+    width: 318px;
+    height: 275px;
+    padding: 0;
+    margin: 0;
+    border: 0;
+
+    
+    
+  }
+  .image3 {
+
+    grid-row: 1;
+
+    width: 100%;
+    object-fit: cover;
+    height: 294px;
+    
+  }
+
+
+  .container--Homesite1 {
+    display: grid !important;
+    grid-template-columns: repeat(1, 1fr)!important;
+    grid-template-rows: repeat(1, 1fr)!important;
+    gap:0!important;
+    margin: 0!important;
+    
+  }
+  .container--Homesite1 > div{
+    height: auto;
+    margin: 0;
+    gap:0;
+    margin-left: 0px;
+  }
+  .container--Homesite {
+    height: 375px !important;
+    width: 100% !important;
+  }
+  .container--Homesite img{
+    height: 375px;
+  }
+  .Homesite2{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+   
+  }
+  .parent{
+    display: grid !important;
+    grid-template-rows: auto 1fr !important;
+    height: 812px;
+    margin-top: 70px;
+  }
+  .parent img{
+   height: 375px;
+   object-fit: fill;
+   grid-row: 1 !important;
+   width: 100%;
+   
+  }
+  .child {
+    bottom: 0;
+    left: 0;
+    width: 375px;
+    height: 495px;
+    background-color: black;
+    margin-left: 0px;
+    margin-bottom: 0px;
+    grid-row: 2 !important;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+  }
+  .child h4,
+  .child h2,
+  .child h5 {
+
+    text-align: center;
+  }
+  .Invite--class{
+    margin-bottom: 0px!important;
+    margin-top:  30px !important;
+    height: 0px!important;
+    width: 200px!important;
+
+    
+  }
+  .Invite--class img{
+    height: 10px;
+    width: 43px !important;
+  }
+  .niewiem{
+    height: 5892px !important;
+    margin-top: 0px!important;
+    margin: 0 !important;
+  }
+  .niewiem > div{
+    width: 100% !important;
+    height: 375px !important;
+    margin: 0!important;
+    gap:0!important;
+    padding: 0!important;
+    margin-left: -0.00px !important;
+    margin:0 !important;    
+  }
+  .features--Container{
+    height: 3078px !important;
+    margin-top: 70px;
+  }
+  .features--Invite img{
+    height: 288px;
+    width: 100%;
+  }
+  .feature--h1{
+    left: 3% !important;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 40px;
+    letter-spacing: 3.3333332538604736px;
+    width: 330px !important;
+    height: 120px !important;
+  }
+  .Invite--class{
+    right: 43% !important;
+    top: 72% !important
+  } 
+  .Invite--class img{
+    height: 10px;
+  }
+  .about-page-container{
+    flex-direction: column !important;
+    position: relative;
+  }
+  .Pricingplan--div{
+    width: 318px !important;
+    margin: auto!important;;
+    height: 407px !important;
+    align-items: flex-start !important;
+    float:  left !important;
+    text-align: center !important;
+    display:inline !important;
+    position: relative;
+    text-align: center !important;
+  }
+  .Pricingplan--div h2{
+    float:left !important;
+    width: 250px;
+    text-align: center;
+    margin-left: 30px;
+    
+  }
+  .Pricingplan--div h3{
+    text-align: center;
+    margin: auto;
+  }
+  .pricing--Cost {
+    margin-left: 0px !important;
+    text-align: center !important;
+    top: 0;
+    left: 0;
+    width: 200px !important;
+    flex-direction: column !important;
+    align-items: center !important;
+    justify-content: center !important;
+    margin: auto !important;
+  }
+  .pricing--Cost h1 {
+    margin-right: 0px !important;
+  }
+
+  .pricing--Cost h3{
+    margin: 0px !important;
+  }
+  .Pricingplan--div button{
+
+    padding-left: 100px;
+    padding-right: 100px;
+    margin-top: 20px;
+    
+    margin-left: 0px;
+  }
+  .pircing--Bottom img{
+    width: 375px !important;
+  }
+  .about-page-container-pricing{
+    margin-top: 100px;
   }
 }
