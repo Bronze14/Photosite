@@ -1,6 +1,6 @@
 # Photo Snap
 
-Photo Snap is a web application for sharing and exploring photos. It is built using React.js, HTML, and CSS. The project is set up with Vite and React, allowing for efficient development. You can view the live preview of the application [here](https://photo-site1.netlify.app/).
+Photo Snap is a web application for sharing and exploring photos. It is built using React.js, HTML, CSS, and React Router. The project is set up with Vite and React, allowing for efficient development. You can view the live preview of the application [here](https://photo-site1.netlify.app/).
 
 ## Prerequisites
 
@@ -51,6 +51,10 @@ npm run build
 
 This will generate a `dist` directory with optimized and minified files ready for deployment.
 
+## React Router
+
+React Router is used for client-side routing in the Photo Snap application. Routes are defined in the `src/App.js` file. You can add or modify routes as per your requirements.
+
 ## Deployment
 
 To deploy the project, you can use any hosting platform of your choice. One option is to use Netlify:
@@ -85,5 +89,5 @@ This project is licensed under the [MIT License](LICENSE).
 
 ## Acknowledgments
 
-- This project was built using Vite (https://vitejs.dev/) and React (https://reactjs.org/).
+- This project was built using Vite (https://vitejs.dev/), React (https://reactjs.org/), and React Router (https://reactrouter.com/).
 - The design and functionality of Photo Snap were inspired by popular photo sharing websites.
